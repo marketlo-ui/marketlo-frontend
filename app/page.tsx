@@ -13,7 +13,7 @@ export default function Home() {
   const screenRef = useRef(null);
 
   function handleVoiceClick() {
-    voiceRef.current.click();
+    voiceRef.current?.click();
   }
 
   function handleScreenClick() {
